@@ -1,0 +1,9 @@
+import math
+from random import randint
+n = 20
+a = [randint(-10, 20) for _ in range(n)]
+print("Massiv:", a)
+cem = sum(a)
+print("Elementlərin cəmi:", cem)
+s = math.sin(cem)
+print("Cəmin sinusu:", s)
